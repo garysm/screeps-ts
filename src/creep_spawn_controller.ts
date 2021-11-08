@@ -1,4 +1,6 @@
-import { CreepRank, CreepRole, CreepTask } from "creep_room_controller";
+import { CreepRank } from "utils/creep_types/creep_rank";
+import { CreepRole } from "utils/creep_types/creep_role";
+import { CreepTask } from "utils/creep_types/creep_task";
 
 export class CreepSpawnController {
     public static spawnCreep(spawn1: StructureSpawn, initialRole: CreepRole, creepRank: CreepRank) {

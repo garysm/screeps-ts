@@ -1,5 +1,9 @@
-import { CreepRole, CreepRoomController, CreepTask } from "creep_room_controller";
+import { CreepRoomController } from "creep_room_controller";
+import { CreepRole } from "utils/creep_types/creep_role";
+import { CreepTask } from "utils/creep_types/creep_task";
 import { ErrorMapper } from "utils/ErrorMapper";
+
+
 
 declare global {
   /*

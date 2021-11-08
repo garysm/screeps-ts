@@ -1,4 +1,4 @@
-import { CreepTask } from "creep_room_controller";
+import { CreepTask } from "utils/creep_types/creep_task";
 
 export class CreepTaskController {
 
